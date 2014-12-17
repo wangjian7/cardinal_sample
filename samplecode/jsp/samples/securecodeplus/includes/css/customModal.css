@@ -1,0 +1,33 @@
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#333333;
+  display:none;
+  /* for IE */
+  filter:alpha(opacity=60);
+  /* CSS3 standard */
+  opacity:0.6;
+  
+}
+  
+
+#boxes .window {
+  position:absolute;
+  display:none;
+  z-index:9998;
+  padding:20px;
+  border:12px solid #A10001;
+  border-radius: 8px;
+  box-shadow: 0 0 14px 1px #777777;
+}
+
+#boxes #renderAuthScreen { background-color:#ffffff;  opacity:1;background-image:url(../imgs/cc-logo.jpg); background-position:10px 10px; background-repeat:no-repeat; padding-top:75px;} 
+
+#modalFrame{ opacity:0; }
+
+#CentinelExitIcon{ position:absolute; top:-26px; right:-26px; cursor:pointer; z-index:9999; }
+
+#inlineiFrame{position:relative; display:none;}

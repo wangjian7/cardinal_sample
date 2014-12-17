@@ -1,0 +1,38 @@
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#333333;
+  display:none;
+  /* for IE */
+  filter:alpha(opacity=60);
+  /* CSS3 standard */
+  opacity:0.6;
+  
+}
+  
+
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  display:none;
+  z-index:9998;
+  padding:20px;
+  border:12px solid #333;
+  border-radius: 8px;
+  box-shadow: 10px #888;
+}
+
+#boxes #dialog {
+  padding:15px;
+  background-color:#ffffff;
+}
+
+#modalFrame{ opacity:0; }
+
+#CentinelExitIcon{ position:absolute; top:-26px; right:-26px; cursor:pointer; z-index:9999; }
+
+#inlineiFrame{position:relative; display:none;}

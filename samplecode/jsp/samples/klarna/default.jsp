@@ -1,0 +1,4 @@
+
+<%
+response.redirect("ccStart.jsp")
+%>
