@@ -53,7 +53,7 @@
 	MESSAGE_VERSION  = "1.7";
 	TRANSACTION_URL	 = "https://centineltest.cardinalcommerce.com/maps/txns.asp";
 	PROCESSOR_ID	 = "208";
-	MERCHANT_ID	 = "Lenovo";
+	MERCHANT_ID	 = "LenovoausnzTEST";
 	TRANSACTION_PWD  = "L3n0Vo";
 	CENTINEL_TERM_URL = "http://localhost:9080/cardinal/samplecode/jsp/samples/paypalexpresscheckout/ccAuthenticate.jsp";
 	
