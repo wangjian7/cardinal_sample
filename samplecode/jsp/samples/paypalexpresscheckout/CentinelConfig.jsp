@@ -55,7 +55,7 @@
 	PROCESSOR_ID	 = "208";
 	MERCHANT_ID	 = "LenovoausnzTEST";
 	TRANSACTION_PWD  = "L3n0Vo";
-	CENTINEL_TERM_URL = "http://localhost:9080/cardinal/samplecode/jsp/samples/paypalexpresscheckout/ccAuthenticate.jsp";
+	CENTINEL_TERM_URL = "http://localhost:8081/cardinal/samplecode/jsp/samples/paypalexpresscheckout/ccAuthenticate.jsp";
 	
 	// Check with Cardinal to determine appropriate Timeout period for this payment type.
 	TIMEOUT_READ     = 65000;

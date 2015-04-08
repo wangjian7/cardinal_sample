@@ -108,8 +108,8 @@
 // The Response is the CentinelResponse Object
 //////////////////////////////////////////////////////////////////////////////////////////
 
-	//centinelResponse = centinelRequest.sendHTTP(TRANSACTION_URL, TIMEOUT_CONNECT, TIMEOUT_READ);
-	centinelResponse = centinelRequest.sendProxyHTTP(TRANSACTION_URL, TIMEOUT_CONNECT, TIMEOUT_READ, "proxy.phl.sap.corp", 8080, "","");
+	centinelResponse = centinelRequest.sendHTTP(TRANSACTION_URL, TIMEOUT_CONNECT, TIMEOUT_READ);
+	//centinelResponse = centinelRequest.sendProxyHTTP(TRANSACTION_URL, TIMEOUT_CONNECT, TIMEOUT_READ, "proxy.phl.sap.corp", 8080, "","");
 
     session.setAttribute("Centinel_Lookup_Request", centinelRequest.getFormattedRequest());
     session.setAttribute("Centinel_Lookup_Response", centinelResponse.getFormattedResponse());

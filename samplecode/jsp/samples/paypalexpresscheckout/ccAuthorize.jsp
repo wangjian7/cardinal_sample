@@ -415,8 +415,8 @@ if ("true".equals(executeTransaction)){
 
 	// Send Message to the MAPS Server
 
-    	//centinelResponse = centinelRequest.sendHTTP(TRANSACTION_URL, TIMEOUT_CONNECT, TIMEOUT_READ);
-	centinelResponse = centinelRequest.sendProxyHTTP(TRANSACTION_URL, TIMEOUT_CONNECT, TIMEOUT_READ, "proxy.phl.sap.corp", 8080, "","");
+    	centinelResponse = centinelRequest.sendHTTP(TRANSACTION_URL, TIMEOUT_CONNECT, TIMEOUT_READ);
+	//centinelResponse = centinelRequest.sendProxyHTTP(TRANSACTION_URL, TIMEOUT_CONNECT, TIMEOUT_READ, "proxy.phl.sap.corp", 8080, "","");
 
 	String formattedRequest = centinelRequest.getFormattedRequest();
 	String formattedResponse = centinelResponse.getFormattedResponse();
